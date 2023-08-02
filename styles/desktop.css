@@ -1,0 +1,112 @@
+@media (min-width: 401px) {
+
+  body {
+    height: 100vh;
+  }
+
+  .main-1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    padding: 20px 20px;
+    border-radius: 32px;
+  }
+
+  .main-2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    padding: 20px 20px;
+    border-radius: 32px;
+    width: 430px;
+    height: 500px;
+  }
+
+  .mobile-image {
+    display: none;
+  }
+
+  .desktop-image {
+    height: 100%;
+  }
+  
+  .left-side {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    padding: 40px;
+    justify-content: center;
+  }
+  
+  h1 {
+    font-size: 52px;
+    margin-bottom: 20px;
+  }
+
+  ul {
+    margin-top: 24px;
+  }
+
+  ul li {
+    margin-bottom: 8px;
+  }
+  
+  .text {
+    margin-bottom: 24px;
+    font-size: 14px;
+    width: 90%;
+  }
+
+  input {
+    width: 85%;
+    padding: 18px 24px;
+    font-size: 16px;
+    border: 1px solid var(--grey);
+    border-radius: 8px;
+  }
+  
+  input::placeholder {
+    color: var(--grey);
+  }
+  
+  button {
+    background-color: var(--darkSlateGrey);
+    color: white;
+    font-weight: bold;
+    margin-top: 20px;
+    padding: 16px 0;
+    font-size: 16px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    width: 85%;
+  }
+
+  .dismiss {
+    width: 100%;
+  }
+  
+  button:hover {
+    background: linear-gradient(90deg, rgba(255,88,106,1) 41%, rgba(255,91,0,1) 100%);
+  }
+
+  .invalid-email {
+    margin-right: 60px;
+  }
+
+  .success-icon {
+    width: 64px;
+    padding-bottom: 28px;
+  }
+
+  .post-page {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+
+
+

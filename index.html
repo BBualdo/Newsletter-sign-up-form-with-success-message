@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+  
+  <title>Frontend Mentor | Newsletter sign-up form with success message</title>
+  
+  <link rel="stylesheet" href="styles/desktop.css">
+  <link rel="stylesheet" href="styles/mobile.css">
+  <link rel="stylesheet" href="styles/general.css">
+  
+</head>
+<body>
+<main class="main-1">
+  <section class="left-side">
+    <div class="text">
+      <h1>Stay updated!</h1>
+      <p class="features">Join 60,000+ product managers receiving monthly updates on:</p>
+    <ul>
+      <li>
+        <img src="assets/images/icon-list.svg" alt="check">
+        <p>
+          Product discovery and building what matters
+        </p>
+      </li>
+      <li>
+        <img src="assets/images/icon-list.svg" alt="check">
+        <p>
+          Measuring to ensure updates are a success
+        </p>
+      </li>
+      <li>
+        <img src="assets/images/icon-list.svg" alt="check">
+        <p>
+          And much more!
+        </p>
+      </li>
+    </ul>
+    </div>
+    <div class="email-input-container">
+      <p>Email address</p>
+      <p class="invalid-email"></p>
+    </div>
+    <form>
+      <input class="js-input" type="text" placeholder="email@company.com">
+    </form>
+    <button onclick="
+      onSubmit()
+    " class="subscribe js-subscribe-button">Subscribe to monthly newsletter</button>
+  </section>
+  <section class="right-side">
+    <img class="mobile-image" src="assets/images/illustration-sign-up-mobile.svg" alt="">
+    <img class="desktop-image" src="assets/images/illustration-sign-up-desktop.svg" alt="">
+  </section>
+</main>
+
+<script src="newsletter.js"></script>
+</body>
+</html>

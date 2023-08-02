@@ -1,0 +1,51 @@
+:root {
+ 
+--tomato: hsl(4, 100%, 67%);
+
+--darkSlateGrey: hsl(234, 29%, 20%);
+--charcoalGrey: hsl(235, 18%, 26%);
+--grey: hsl(231, 7%, 60%);
+--white: hsl(0, 0%, 100%);
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  font-family: 'Roboto';
+  color: var(--darkSlateGrey);
+}
+
+body {
+  background-color: var(--charcoalGrey);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+ul {
+  padding-left: 0;
+}
+
+ul li {
+  list-style: none;
+  display: flex;
+  line-height: 24px;
+  gap: 16px;
+}
+
+.email-input-container {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 8px;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.invalid-email {
+  color: var(--tomato);
+}
+
+.post-info {
+  line-height: 24px;
+}
+
